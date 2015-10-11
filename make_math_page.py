@@ -26,7 +26,7 @@
 #
 # Change log:
 # 10/11/2015   Initial release
-#
+# 10/11/2015   Added nofication message that worksheet files have been generated
 
 from __future__ import print_function
 import random
@@ -150,3 +150,5 @@ if __name__ == "__main__":
 
     # call function to generate math problems
     problem_sheet(row_probs, rows, prob_type)
+
+    print("Files math_problems.txt and math_answers.txt have been generated")
